@@ -1,0 +1,319 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family:Helvetica;
+}
+#header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 500;
+    width: 100%;
+    height: 80px;
+    background-image: url(images/blue-bg.png);
+    background-repeat: repeat-x;
+}
+
+#header img{
+    display: block;
+    margin: auto;
+    height: 100%;
+    padding-top: 0px;
+}
+h2{
+    text-align: left;
+    padding: 0;
+    margin-bottom: 0;
+    margin: auto;
+    width: 90%;
+    color: black;
+    padding-top: 0px;
+    text-decoration: underline;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+
+/*======================TOP-TABS======================*/
+
+#tabs-top{
+    position: fixed;
+    top: 80px;
+    left: 0;
+    z-index: 500;
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    
+}
+#tabs-top a{
+    float: left;
+    display: block;
+    width: 33%;
+    height: 35px;
+    font-family: serif;
+    font-weight: 700;
+    color: blue;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 12px;
+    
+}
+
+/*======================MAIN-HOME=======================*/
+
+#main-home{
+    margin-top: 120px;
+    
+}
+
+/*======================BOTTOM-TABS======================*/
+
+#tabs-bottom{
+   position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 500;
+    width: 100%;
+    height: 40px;
+    background-color: black;
+}
+
+#tabs-bottom a{
+    float: left;
+    display: block;
+    width: 33%;
+    height: 35px;
+    font-family: serif;
+    font-weight: 700;
+    color: blue;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 12px;
+    
+}
+
+/*======================MAIN=====================*/
+
+#main{
+    margin-top: 119px;
+    background: url(images/mall.png);
+    background-repeat: repeat-y;
+    background-size:contain;
+}
+
+
+#content{
+    padding-top: 1px;
+    padding-bottom: 30px;
+}
+
+
+/*======================INFO-BOX=====================*/
+
+
+a.info-box{
+    text-decoration: none;
+    background: rgba(255,255,255,.8);
+    width: 90%;
+    height: 90px;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    padding: 1px;
+    
+    
+    
+
+}
+
+.info-box img{
+    height: 70px;
+    margin: 10px;
+    float: left;
+    
+
+}
+
+
+.info-box h3{
+    
+    text-align: left;
+    padding: 0;
+    margin-bottom: 0;
+    width: 90%;
+    color: blue;
+
+    
+}
+
+.info-box p{
+    margin: 0;
+    padding: 0;
+    width: 90%;
+    color: #131313;
+}
+
+.info-box img.right{
+    float: right;
+    margin-top: 25px;
+    height: 40px;
+}
+
+
+
+
+
+
+
+/*======================INFO-BOX-FULL=====================*/
+
+#info-box-full{
+    
+    width: 90%;
+    display: block;
+    margin: auto;
+    margin-top: 12px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.8)    
+    
+}
+#info-box-full img{
+    width: 100%;
+    margin: auto;
+    
+        
+    
+}
+
+#info-box-full h2{
+    font-family:sans-serif;
+    width: 90%;
+    color: blue;
+    font-weight: 900;
+    padding: 0px;
+    margin-bottom: 2px;
+    text-decoration: none;
+    text-align: center;
+    
+}
+#info-box-full p{
+    width: 90%;
+    margin: auto;
+    margin-bottom:4px; 
+    text-align: left;
+    padding: 0;
+    color: black;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+#info-box-full table{
+    width: 90%;
+    height: 150px;
+    border-color: blue;
+    border-width: 2px;
+    border-style: solid;
+    margin: auto;
+    border-collapse: collapse;
+    
+}
+
+#info-box-full th{
+    text-align: center;
+    color: blue;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin: auto;
+    
+}
+
+#info-box-full td{
+    text-align: center;
+    color: black;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin: auto;
+}
+
+#info-box-full h4{
+    font-family:sans-serif;
+    width: 90%;
+    color: blue;
+    font-weight: 900;
+    padding: 1px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    text-decoration: none;
+    text-align: center;
+}
+
+#info-box-full .gallery{
+    margin: auto;
+    width:75%;
+    
+}
+#info-box-full .gallery p{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom:30px;
+    color: black;
+    font-family: sans-serif;
+    font-weight: 600; 
+}
+
+
+
+
+
+
+
+/*======================FORM=====================*/
+
+input{
+    width: 100%;
+    height: 25px;
+    margin: 12px 0;
+    border: 3px solid blue;
+    padding: 2px 0;
+    color:black;
+    
+}
+
+textarea{
+    width: 100%;
+    height: 65px;
+    margin: 12px 0;
+    border: 3px solid blue ;
+    padding: 8px 0;
+    color: black;
+    
+}
+.button{
+    display: block;
+    width: 100%;
+    background-color: white;
+    border: 3px solid blue;
+    text-decoration: none;
+    text-align: center;
+    color: blue;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 12px 0;
+    padding: 8px 0;
+    
+    
+}
+
+
+.return{
+    width: 100%;
+    text-align: left;
+    color: blue;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 12px 0;
+    padding: 8px 0;
+    
+}
